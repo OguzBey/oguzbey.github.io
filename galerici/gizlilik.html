@@ -21,7 +21,7 @@
 <p class="muted">Son güncelleme: 24 Kasım 2026 · <a href="privacy.html">English</a></p>
 <div class="card">
 <h2>Kısaca</h2>
-<p>Hurdadan Servete: Galerici (İngilizce adı: Rust to Riches: Car Dealer) bir galerici oyunudur. Oyunun kendisi seni tanımlayan hiçbir bilgi toplamaz: hesap ya da giriş yoktur, istatistik ya da analiz aracı yoktur ve verini alan bir sunucumuz yoktur. Oyunun ücretsiz kalabilmesi için Google AdMob reklamları gösterilir; reklamları gösterip ölçebilmek için AdMob cihazından bazı bilgileri işler. iPhone ve iPad'de oyun kaydın kendi iCloud hesabına yedeklenebilir; Game Center isteğe bağlıdır.</p>
+<p>Hurdadan Servete: Galerici (İngilizce adı: Rust to Riches: Car Dealer) bir galerici oyunudur. Hesap ya da giriş yoktur ve oyun seni tanımlayan hiçbir bilgi toplamaz. Oyunu geliştirebilmek için <strong>adsız</strong> kullanım istatistikleri ve hata raporları gönderir (oyunun Ayarlar bölümünden kapatabilirsin). Oyunun ücretsiz kalabilmesi için Google AdMob reklamları gösterilir; reklamları gösterip ölçebilmek için AdMob cihazından bazı bilgileri işler. iPhone ve iPad'de oyun kaydın kendi iCloud hesabına yedeklenebilir; Game Center isteğe bağlıdır.</p>
 
 <h2>Cihazında kalanlar</h2>
 <p>Galerinin adı, oyun kaydın (arabalar, para, gün, yükseltmeler ve ilerleme), ayarların (dil, ses, titreşim, görüntü), sahip olduğun satın almalar ve basit reklam sayaçları (ör. günlük sınırlar çalışsın diye bugün kaç ödüllü reklam izlediğin) cihazında saklanır. Bunların hiçbiri bize gönderilmez.</p>
@@ -55,14 +55,16 @@
 <h2>Game Center (iPhone ve iPad)</h2>
 <p>Game Center isteğe bağlıdır. Game Center'a giriş yaptıysan başarımların ve rekor tablosu puanların (ör. toplam kâr, satılan araba sayısı) Apple'ın Game Center hizmetine gönderilir ve Game Center ayarlarına göre Game Center takma adınla diğer oyunculara görünebilir. Bu, Apple'ın gizlilik politikasına tabidir. <em>Ayarlar › Game Center</em> bölümünden çıkış yapabilirsin.</p>
 
-<h2>İstatistik yok</h2>
-<p>Oyun kendine ait hiçbir analiz, istatistik, takip ya da hata raporlama hizmeti kullanmaz ve bize hiçbir şey göndermez. İnternet yalnızca reklamlar, App Store / Google Play, iCloud yedeği ve Game Center için kullanılır; oyunun kendisi internetsiz oynanabilir.</p>
+<h2>Anonim istatistikler (PostHog)</h2>
+<p>Oyunu geliştirebilmek için oturumların ne kadar sürdüğünü ve oyun içi adımları <strong>adsız</strong> olarak sayarız: eğitim adımları, her gün sonu (oyun günü, kasa, kâr, satılan araba sayısı), alınan ve satılan arabalar (fiyat, kâr, araba türü), boya, yükseltmeler, krediler, mezat ve siparişler, başarımlar, reklam ve satın alma sonuçları, takip izni sorusuna verilen cevap ve iCloud kaydıyla devam edilip edilmediği. Bunun için cihazında rastgele oluşturulan bir kimlik kullanılır; bu kimlik reklam kimliği değildir ve seni tanımlamaz. Bunlarla birlikte cihaz modeli, işletim sistemi, uygulama sürümü ve oyunun dili gönderilir. Galerinin adı, yazdığın herhangi bir şey, iletişim bilgilerin ve reklam kimliğin gönderilmez.</p>
+<p>Oyunda bir hata oluşursa, düzeltebilmemiz için aynı şekilde adsız bir <strong>hata raporu</strong> gönderilir: hatanın metni ve oyunun kodunda nerede oluştuğu.</p>
+<p>Veriler PostHog hizmetiyle ABD'deki sunucularda işlenir. Her internet isteğinde olduğu gibi PostHog IP adresini alır ve ondan kabaca bir konum (ülke ve şehir) çıkarır; bunu yalnızca istatistik için, örneğin mağaza incelemecilerinin test cihazlarını ayırmak için kullanırız. Veriler reklam ya da takip için kullanılmaz, satılmaz ve en fazla bir yıl saklanır. Oyundaki <em>Ayarlar (⚙) › Anonim istatistik</em> bölümünden istediğin zaman kapatabilirsin; kapattığında gönderilmeyi bekleyen veriler de silinir. Oyun yine internetsiz oynanabilir.</p>
 
 <h2>Çocuklar</h2>
 <p>Oyun 13 yaşından küçük çocuklara yönelik değildir ve çocuklardan bilerek kişisel veri toplamayız. Bir çocuğun oyun üzerinden kişisel veri paylaştığını düşünüyorsan bize yaz, yardımcı olalım.</p>
 
 <h2>Hakların ve verilerin silinmesi</h2>
-<p>Hakkında hiçbir veri tutmadığımız için bizim tarafımızda silinecek bir hesap yoktur. Oyunun verilerini cihazından silmek için oyunu silmen yeterlidir; oyundaki Ayarlar'da "Yeni oyun" da ilerlemeni siler ve iCloud'daki kopyanın yerine geçer. iCloud yedeğini durdurmak için oyun için iCloud'u kapat (yukarıda); Android yedeğini durdurmak için telefonunun Google ayarlarında yedeklemeyi kapat. Reklam kimliğini iPhone'da <em>Ayarlar › Gizlilik ve Güvenlik › Takip</em>, Android'de <em>Ayarlar › Gizlilik › Reklamlar</em> bölümünden kapatabilirsin. KVKK, GDPR ve benzeri yasalar kapsamındaki soruların için aşağıdaki adrese yazabilirsin.</p>
+<p>Hakkında bir hesap ya da kişisel veri tutmayız; adsız istatistikler yalnızca cihazındaki rastgele bir kimliğe bağlıdır ve en fazla bir yıl sonra silinir. Göndermeyi durdurmak için <em>Ayarlar › Anonim istatistik</em> seçeneğini kapat. Oyunun verilerini cihazından silmek için oyunu silmen yeterlidir; oyundaki Ayarlar'da "Yeni oyun" da ilerlemeni siler ve iCloud'daki kopyanın yerine geçer. iCloud yedeğini durdurmak için oyun için iCloud'u kapat (yukarıda); Android yedeğini durdurmak için telefonunun Google ayarlarında yedeklemeyi kapat. Reklam kimliğini iPhone'da <em>Ayarlar › Gizlilik ve Güvenlik › Takip</em>, Android'de <em>Ayarlar › Gizlilik › Reklamlar</em> bölümünden kapatabilirsin. KVKK, GDPR ve benzeri yasalar kapsamındaki soruların için aşağıdaki adrese yazabilirsin.</p>
 
 <h2>Değişiklikler ve iletişim</h2>
 <p>Bu politika değişirse yeni hâli yeni tarihiyle bu adreste yayınlanır. İletişim: <a href="mailto:info@oguzhan.win">info@oguzhan.win</a> · <a href="destek.html">Destek sayfası</a></p>
